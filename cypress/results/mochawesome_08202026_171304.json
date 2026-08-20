@@ -1,0 +1,106 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2026-08-20T20:13:00.445Z",
+    "end": "2026-08-20T20:13:04.759Z",
+    "duration": 4314,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "1833f92d-5696-42fe-b25f-b0d3f0bac128",
+      "title": "",
+      "fullFile": "cypress\\e2e\\cadastro-correto.cy.js",
+      "file": "cypress\\e2e\\cadastro-correto.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "226cb5ae-60b1-44ce-837d-da9322782cf4",
+          "title": "Página de Cadastro",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Deve preencher os campos do formulário corretamente para cadastrar um novo usuário",
+              "fullTitle": "Página de Cadastro Deve preencher os campos do formulário corretamente para cadastrar um novo usuário",
+              "timedOut": null,
+              "duration": 2894,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.cadastro('Joyce', 'joyce@email.com', 'Senha123!'); // se der bad request, pode ser email ja cadastrado de testes anteriores!\n// LISTA DE EXERCICIOS - 1\n// cy.contains('a', 'Ver pets disponíveis para adoção').click();\n// cy.get('[aria-label=\"Tela inicial\"]').click();\n// cy.get('[aria-label=\"Ir para Mensagens\"]').click();\n// cy.visit('https://adopet-frontend-cypress.vercel.app/login');\n// cy.visit('https://adopet-frontend-cypress.vercel.app/home');\n// cy.contains('a', 'Falar com responsável').click();",
+              "err": {},
+              "uuid": "658fe414-7cae-4f63-a185-4680c58f20b5",
+              "parentUUID": "226cb5ae-60b1-44ce-837d-da9322782cf4",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "658fe414-7cae-4f63-a185-4680c58f20b5"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 2894,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/results",
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "timestamp": "mmddyyyy_HHMMss"
+      },
+      "version": "6.3.2"
+    }
+  }
+}
